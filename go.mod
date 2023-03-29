@@ -1,4 +1,4 @@
-module github.com/tigrisdata/typesense-go
+module github.com/typesense/typesense-go
 
 go 1.17
 
@@ -10,7 +10,6 @@ require (
 	github.com/sony/gobreaker v0.5.0
 	github.com/stretchr/testify v1.7.0
 	github.com/testcontainers/testcontainers-go v0.12.0
-	github.com/typesense/typesense-go v0.6.2
 	gopkg.in/yaml.v3 v3.0.0-20210107192922-496545a6307b
 )
 
