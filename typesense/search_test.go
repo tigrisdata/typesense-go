@@ -8,9 +8,9 @@ import (
 
 	"github.com/golang/mock/gomock"
 	"github.com/stretchr/testify/assert"
-	"github.com/typesense/typesense-go/typesense/api"
-	"github.com/typesense/typesense-go/typesense/api/pointer"
-	"github.com/typesense/typesense-go/typesense/mocks"
+	"github.com/tigrisdata/typesense-go/typesense/api"
+	"github.com/tigrisdata/typesense-go/typesense/api/pointer"
+	"github.com/tigrisdata/typesense-go/typesense/mocks"
 )
 
 func newSearchParams() *api.SearchCollectionParams {
@@ -23,7 +23,7 @@ func newSearchParams() *api.SearchCollectionParams {
 		FacetBy:        pointer.String("year_started"),
 		MaxFacetValues: pointer.Int(10),
 		FacetQuery:     pointer.String("facetQuery"),
-		NumTypos:       pointer.Int(2),
+		NumTypos:       pointer.String("2"),
 		Page:           pointer.Int(1),
 		PerPage:        pointer.Int(10),
 		GroupBy:        pointer.String("country"),

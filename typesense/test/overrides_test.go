@@ -1,3 +1,4 @@
+//go:build integration
 // +build integration
 
 package test
@@ -7,7 +8,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-	"github.com/typesense/typesense-go/typesense/api"
+	"github.com/tigrisdata/typesense-go/typesense/api"
 )
 
 func TestSearchOverrideUpsertNewOverride(t *testing.T) {
