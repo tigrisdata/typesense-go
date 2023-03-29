@@ -82,7 +82,7 @@ func main() {
 }
 
 func fetchOpenAPISpec() error {
-	url := "https://raw.githubusercontent.com/typesense/typesense-api-spec/master/openapi.yml"
+	url := "https://raw.githubusercontent.com/tigrisdata/typesense-api-spec/master/openapi.yml"
 
 	// Fetch the spec
 	resp, err := http.Get(url)
