@@ -1420,7 +1420,7 @@ components:
         group_key:
           type: array
           items:
-            type: object
+            type: string
         hits:
           type: array
           description: The documents that matched the search query
@@ -1796,7 +1796,7 @@ components:
           description: >
             The number of typographical errors (1 or 2) that would be tolerated.
             Default: 2
-          type: string
+          type: integer
 
         page:
           description: Results from this specific page number would be fetched.
