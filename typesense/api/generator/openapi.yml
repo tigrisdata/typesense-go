@@ -1449,6 +1449,7 @@ components:
             type: integer
         vector_distance:
           type: number
+          format: double
       example:
         highlights:
           company_name:
