@@ -1447,6 +1447,8 @@ components:
           description: Can be any key-value pair
           additionalProperties:
             type: integer
+        vector_distance:
+          type: number
       example:
         highlights:
           company_name:
