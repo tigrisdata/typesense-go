@@ -1453,8 +1453,6 @@ components:
         highlight:
           type: object
           description: Contains highlight portions of the search fields
-          additionalProperties:
-            type: object
       example:
         highlights:
           company_name:
